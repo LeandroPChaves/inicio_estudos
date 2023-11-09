@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+.primeiro{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 33%;
+    height: 33%;
+    margin: auto;
+    margin-top: 5%;
+}
+#um{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 127, 14);
+    display: inline-block;
+}
+#dois{
+    width: 200px;
+    height: 200px;
+    background-color: #57d40e;
+    display: inline-block;
+}
+.segundo{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 33%;
+    height: 33%;
+    margin: auto;
+    margin-top: 1%;
+}
+#tres{
+    width: 200px;
+    height: 200px;
+    background-color: #950ed4;
+    display: inline-block;
+}
+#quatro{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(211, 13, 13);
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    margin-top: 5%;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/5996575/pexels-photo-5996575.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+#menu1{
+    background-color: rgb(233, 214, 214);
+    width: 50%;
+    height: 30px;
+    display: inline-block;
+    
+}
+#menu2{
+    background-color: rgb(224, 224, 15);
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+}
+#menu3{
+    background-color: rgb(224, 224, 15);
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+}
+#menu4{
+    background-color: rgb(224, 224, 15);
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+}
+.m1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#adote{
+    font: bold 20px verdana;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font: bold 16px geneva;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+    font-size: 20px;
+}
+.imagem{
+    display: flex;
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 20%;
+    padding: 3%;
+    width: 280px;
+    height: 280px;
+    
+}
+footer{
+   
+   margin-top: 1%;
+   padding: 3px;
+   width: 1366px;
+   height: 25px;
+   background-color: rgb(224, 224, 15);
+   text-align: center;
+   font-weight: bold;
+   border: 2px solid black;
+}
+
+

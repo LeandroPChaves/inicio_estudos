@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1404f9762d.js" crossorigin="anonymous"></script>
+    <title>Leandro Chaves</title>
+</head>
+<body>
+    <header>
+        <div>
+          <img src="foto.png" alt="Minha foto">
+        </div>
+        <ul>
+            <li><a target="blank" href="https://github.com/LeandroPChaves">github</a></li>
+            <li><a target="blank" href="mailto:leandropadilhachaves@gmail.com">e-mail</a></li>
+            <li><a target="blank" href="https://wa.me/21979727353">whatsapp</a></li>
+        </ul>  
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>"Leandro Chaves"</h1>
+                <h5>"Desenvolvedor Full Stack"</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <!--  site awesome para pegar a seta sort - down -->
+                <i id="animation" class="fa-solid fa-sort-down"></i>
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>Meu nome é Leandro Padilha Chaves, tenho 39 anos, sou casado e pai de 2 filhos. Decidi entrar de cabeça na área da tecnologia, com foco no Desenvolvimento Full Stack. A cada dia tenho adquirido maiores conhecimentos e me qualificado através de vários cursos.</p>
+            </div>
+
+            <div class="form">
+                <div>
+                    <p>deixe seu contato!</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor E-mail :)">
+                    <button>Enviar!</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <script>
+        function displayAbout() {
+           var arrow = document.getElementById('animation');
+           arrow.classList.toggle('rotate');
+           var display = document.getElementById('about');
+           display.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
